@@ -1,0 +1,179 @@
+.containerHeader{
+    display: flex;
+}
+.imagenPerfil{
+    
+    position: static;
+    width: 90px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    border: 4px solid #E6E6EA;
+    border-radius: 20px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+}
+h3{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+
+p {
+    overflow: hidden;
+    margin-top: 5.5rem;
+}
+.textValencia{
+    margin: 1px 1px 1px 1px;
+    line-height: 0.04em;
+    border-right: 2px solid #A5A8B3;
+    padding: 0.4em;
+    float: left;
+    margin-top: 3px;
+}
+    
+   
+
+span{
+    margin-left: 5px;
+    color: #A5A8B3;
+
+}
+select{
+    width: 300px;
+    
+}
+.subir{
+    padding: 5px 10px;
+    background-color:  #A5A8B3;
+    border-radius: 8px;
+    color:#FFFFFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    width: 120px;
+    height: 28px;
+    padding-left: 10px;
+    padding-top: 12px;
+
+}
+ .fa-map-marker-alt{
+    margin-top: 5.5rem;
+    margin-left: -11.8rem;
+    color: #A5A8B3;
+ }
+
+ .container{
+     display: flex;
+     flex-direction: column;
+     margin-left: 2.2rem;
+ }
+label{
+    margin-bottom: 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+}
+input{
+    margin-bottom: 1rem;
+    Width: 188px;
+    height: 40px;
+    padding-left: 15px;
+    background: #F8F8F9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.inputAlumno{
+    width: 452px;
+    height: 40px;
+}
+.email{
+    margin-left: 16.5rem;
+    margin-top: -5.2rem;
+}
+.emailInput{
+    margin-left: 16.5rem;
+ 
+}
+select{
+    margin-bottom:1rem ;
+    width: 214px;
+    height: 40px;
+    padding-left: 15px;
+    background: #F8F8F9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ciudad{
+    margin-left: 16.5rem;
+    margin-top: -4.8rem;
+}
+.ciudadSelect{
+    margin-left: 16.5rem; 
+}
+.modoTrabajo{
+    margin-left: 16.5rem;
+    margin-top: -4.8rem;
+}
+.modoTrabajoSelect{
+    margin-left: 16.5rem;
+}
+.fa-cloud-upload-alt{
+    margin-right: 5px;
+}
+.boton{
+    width: 120px;
+    height: 45px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: -3.2rem;
+    background: #FFFFFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    margin-left: 9.5rem;
+
+}
+.fa-trash-alt{
+    margin-right: 5px;
+    margin-left: -5px;
+}
+.etiquetas{
+    width: 480px;
+    height: 40px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-top: 8px;
+}
+.current{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+}

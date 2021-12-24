@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="scripts/nice-select2/css/nice-select2.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="containerHeader">
+        <img class="imagenPerfil" src="/imagen_perfil/girl-gabcdd6efe_1920.jpg">
+        <h3>Nombre Alumno</h3>
+        <i class="fas fa-map-marker-alt"></i>
+        <p><span class="textValencia">Valencia</span><span>España</span></p>
+    </div>
+    <form>
+        <div class="container">
+                    <label>Nombre y Apellidos</label>
+                    <input class="inputAlumno" type="text" placeholder="Nombre del alumno">
+                    <label>Nº de Teléfono</label>
+                    <input type="text">
+                    <label class="email">Email</label>
+                    <input class="emailInput" type="text" placeholder="Email"> 
+                    <label>País</label>
+                <select>
+                    <option value="">País</option>
+                    <option value="1">España</option>
+                    <option value="2">Suiza</option>
+                    <option value="3">Gran Bretaña</option>
+                    <option value="4">Italia</option>
+                    <option value="5">Francia</option>
+                </select>
+                    <label class="ciudad">Ciudad</label>
+                <select class="ciudadSelect">
+                    <option value="">Ciudades</option>
+                    <option value="1">Barcelona</option>
+                    <option value="2">Madrid</option>
+                    <option value="3">Sevilla</option>
+                    <option value="4">Oviedo</option>
+                    <option value="5">Toledo</option>
+                </select>  
+            <label>Traslado</label>
+            <select>
+                <option value=""></option>
+                <option value="1">Sí</option>
+                <option value="2">No</option>
+            </select>
+                <label class="modoTrabajo">Presencialidad</label>
+                <select class="modoTrabajoSelect">
+                    <option></option>
+                    <option>remoto</option>
+                    <option>presencial</option>
+                </select>
+            <label>Documento CV</label>
+            <label for="file-upload" class="subir">  
+            <i class="fas fa-cloud-upload-alt"></i> Subir archivo</label>
+            <input id="file-upload" onchange='cambiar()' type="file" style='display: none;'/>
+            <div id="info"></div>
+            <button class="boton"><i class="far fa-trash-alt"></i>Borrar</button>
+            <label>Etiquetas</label>
+            <select class="etiquetas" id="searchable-select">
+                <option value="1">HTML</option>
+                <option value="2">CSS</option>
+                <option  value="3">Javascript</option>
+                <option value="4">React</option>
+                <option value="5">Node js</option>
+              </select>
+        </div>
+    </form>
+    <script src="scripts/nice-select2/js/nice-select2.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
