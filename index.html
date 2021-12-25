@@ -58,10 +58,11 @@
             <label>Documento CV</label>
             <label for="file-upload" class="subir">  
             <i class="fas fa-cloud-upload-alt"></i> Subir archivo</label>
-            <input id="file-upload" onchange='cambiar()' type="file" style='display: none;'/>
+            <input id="file-upload" name="pdfFile" type="file" style='display: none;' required/>
             <div id="info"></div>
             <button class="boton"><i class="far fa-trash-alt"></i>Borrar</button>
-            <label>Etiquetas</label>
+            <embed id="vistaPrevia" type="application/pdf" >
+            <label class="etiquetaLabel">Etiquetas</label>
             <select class="etiquetas" id="searchable-select">
                 <option value="1">HTML</option>
                 <option value="2">CSS</option>
